@@ -1,0 +1,31 @@
+{
+  "n_bits" : [100],
+  "number_of_samples" : 1000,
+  "sigma_max" : 3,
+  "sigma_min" : 0.1,
+  "sigma_num" : 3,
+  "epochs" : 200,
+
+  "datasets" : ["PANCAN"],
+  "data_normalizaton" : "fpkm_normalized_by_genes_l_inf_norm",
+  "var_th_index" : 2000,
+  "total_gene_list_file_name" : "protein_coding_long.txt",
+  "number_of_neurons": 100,
+  "latent_dim" : 50,
+  "num_of_epochs" : 2,
+  "activation_function" : "relu",
+  "loss_function" : "cross_ent",
+  "go_separator" : "Z",
+  "is_variational" : true,
+  "num_randomization" : 10,
+  "use_cache" : true,
+  "gene_list_pca" : "mitochondrion.txt",
+  "train" : true,
+  "use_svm" : false,
+  "split_data" :false,
+  "load_weights": false,
+  "start_k" : 2,
+  "end_k" : 2,
+  "clustering_algorithm" : "euclidean"
+
+}
