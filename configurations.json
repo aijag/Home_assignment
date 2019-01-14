@@ -1,0 +1,11 @@
+{
+  "n_bits" : [100, 1000],
+  "number_of_samples" : 1000,
+  "sigma_max" : 100,
+  "sigma_min" : 0.1,
+  "sigma_num" : 20,
+  "cuda" : true,
+  "epochs" : 5000,
+  "lr" : 1e-3,
+  "weight_decay" : 1e-5
+}
